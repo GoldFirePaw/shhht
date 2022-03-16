@@ -3,11 +3,7 @@ import Chouette from './chouette'
 import Ecureuil from './ecureuil'
 import Elephant from './elephant'
 import Renard from './renard'
-import Coeur from './coeur'
-import Dewey from './dewey'
-import tomNook from './tomNook'
 import chat from './chat'
-
 
 export default [{
         title: 'Canard',
@@ -34,23 +30,6 @@ export default [{
         component: Renard,
         format: 464.51 / 414.99
     },
-    {
-        title: 'Coeur',
-        component: Coeur,
-        format: 1
-    },
-    {
-        title: 'Dewey',
-        component: Dewey,
-        format: 1
-    },
-
-    {
-        title: 'Tom Nook',
-        component: tomNook,
-        format: 1
-    },
-
     {
         title: 'Chat',
         component: chat,
